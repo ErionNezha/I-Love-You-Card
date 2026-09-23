@@ -172,7 +172,7 @@
 
 
   const content = document.querySelector('.content');
-  const gradient = document.querySelector('#background');
+  const gradient = document.querySelector('#gradient');
   const cardWrapper = document.querySelector('.card-wrapper');
   const audio = document.querySelector('audio');
   const confetti = new Confetti({ target: content });
@@ -187,7 +187,7 @@
       gradient.style.opacity = 0;
     } else {
       cardWrapper.classList.add('active');
-      audio.play();
+      audio.play().catch(() => {});
       confetti.start();
       gradient.style.opacity = 1;
     }
