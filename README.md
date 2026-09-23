@@ -1,5 +1,7 @@
 # 💌 Të Dua — Kartë e animuar
 
+Created by **Erion Nezha**
+
 Një kartë e vogël e animuar "Të dua" — kliko zemrën dhe ajo hapet me animacion 3D, konfeti, sfond gradient dhe muzikë. E përshtatur plotësisht në shqip.
 
 **Live demo:** https://erionnezha.github.io/I-Love-You-Card/
@@ -20,11 +22,13 @@ Një kartë e vogël e animuar "Të dua" — kliko zemrën dhe ajo hapet me anim
 
 ## Licenca
 
-MIT — shih [LICENSE](LICENSE).
+Të gjitha të drejtat e rezervuara © 2026 Erion Nezha — shih [LICENSE](LICENSE).
 
 ---
 
 # 💌 I Love You — Animated Card
+
+Created by **Erion Nezha**
 
 A small animated "I love you" card — click the heart and it opens with a 3D animation, confetti, an animated gradient background and music. Fully localized in Albanian.
 
@@ -44,4 +48,4 @@ A small animated "I love you" card — click the heart and it opens with a 3D an
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+All rights reserved © 2026 Erion Nezha — see [LICENSE](LICENSE).
