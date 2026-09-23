@@ -221,19 +221,6 @@
   }
 
 
-  if (typeof Granim !== 'undefined') {
-  new Granim({
-    element: '#gradient',
-    direction: 'radial',
-    isPausedWhenNotInView: true,
-    states: {
-      "default-state": {
-        gradients: [
-        ['#ff8faf', '#ffe5ed'],
-        ['#f38fff', '#ffe5ed'],
-        ['#ff8f8f', '#ffe5ed']] } } });
-  }
-
-
+  // Gradienti i sfondit tani është animim i pastër CSS (#background) — nuk nevojitet librari e jashtme.
 
 })();
