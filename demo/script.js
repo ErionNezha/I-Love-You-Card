@@ -182,12 +182,12 @@
 
     if (isActive) {
       cardWrapper.classList.remove('active');
-      audio.pause();
+      if (audio) audio.pause();
       confetti.stop();
       gradient.style.opacity = 0;
     } else {
       cardWrapper.classList.add('active');
-      audio.play().catch(() => {});
+      if (audio) audio.play().catch(() => {});
       confetti.start();
       gradient.style.opacity = 1;
     }
